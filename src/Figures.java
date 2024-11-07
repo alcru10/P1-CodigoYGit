@@ -14,4 +14,12 @@ public class Figures {
             } System.out.println();
         }
     }
+
+    public static void writeSqare2(int lado, char caracter) {
+        for (int i=0;i<lado;i++) {
+            for (int j = 0; j<lado;j++) {
+                System.out.print(caracter);
+            } System.out.println();
+        }
+    }
 }
